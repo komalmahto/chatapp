@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+  }
+  
+  .supercontainer {
+    height: 570px;
+    width: 60%;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  
+  .logo {
+    float:left;
+    width: 50px;
+    height: 50px;
+  }
+  .log {
+    float: left;
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  .header {
+    height: 70px;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 0px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .container1 {
+    background-image:url("https://st2.depositphotos.com/2963489/9411/v/950/depositphotos_94116894-stock-illustration-seamless-mobile-apps-pattern.jpg");
+    height: 450px;
+    border: 2px solid grey;
+    
+  }
+  
+  .container2 {
+    background-image: url("https://qph.fs.quoracdn.net/main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7");
+    
+    height: 450px;
+    border: 2px solid grey;
+    
+  }
+  
+  @media screen and (max-width: 760px) {
+    h1 {
+      margin-bottom: 0px;
+      height: 50px;
+      font-size: 150%;
+    }
+  }
+  
+  
+  
+  .send {
+    margin-top: 3px;
+  }
+  
+  
+  
+  .row{
+    margin: 0px;
+  }
+  
+  
+  .btn_custom{
+    margin-left: 1px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+      width:98%;
+  
+  }
+  
+  textarea{
+    width:100%;
+    padding: 6px 12px 6px 12px;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:38px;
+  }
+  
+  button{
+    padding: 0px;border-width: 0px;
+  }
+  
+  .custom_container{
+  
+      padding: 0px;
+  
+  }
+
+  .left{
+    float:left;
+    border-radius: 8px;
+    clear:both;
+    background-color: white;
+}
+.right{
+    float:right;
+    border-radius: 8px;
+    clear:both;
+    background-color: rgb(196, 245, 131);
+}
+.message{
+    
+   
+    width:30%;
+    padding:10px;
+    margin:17px 2px;
+    border:2px solid black;
+}
+
+.container{
+    
+    padding:20px;
+    overflow-y: auto;
+    
+    background-color:pink;
+    
+}
+.location{
+  background-color: white;
+  border: 2px solid black;
+  height:200px;
+  margin-left: 10px;
+    margin-right: 10px;
+    padding:auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: centre;
+    padding-top: 48px;
+    
+
+}
+.header{
+  background-color:black;
+}
+.k{
+  color: white;
+}
+.btn_mic{
+	
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 100%;
+}
+
+.btn-start{
+  border: 0px;
+  border-radius: 10px;
+  padding: 0px;
+  width: 20%;
+  height: 17px;
+   border-top-width: 1px;
+   margin-bottom: 12px;
+   background-color: #79d70f;
+
+
+}
+i{
+	margin-top:5px;
+	color:#0779e4;
+}
+.btn-end{
+    border: 0px;
+border-radius: 10px;
+padding:0px;
+width:20%;
+height: 17px;
+   border-top-width: 1px;
+   margin-bottom: 12px;
+   background-color: #ff0000;
+}
